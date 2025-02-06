@@ -1,1 +1,1 @@
-Sitemap: https://anajcaetano.github.io/Caetano-lab/sitemap.xml
+Sitemap: http://caetanolab.org/sitemap.xml
