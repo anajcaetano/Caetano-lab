@@ -1,4 +1,4 @@
-Visit **[anajcaetano.github.io/Caetano-lab](https://anajcaetano.github.io/Caetano-lab)** 🚀
+Visit **[caetanolab.org](http://caetanolab.org)** 🚀
 
 <h1 align="center">Lab Website Template</h1>
 <p align="center">
