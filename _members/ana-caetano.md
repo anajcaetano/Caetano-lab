@@ -1,5 +1,5 @@
 ---
-name: Ana J. Caetano
+name: Ana Caetano
 image: images/photo.jpg
 role: principal-investigator
 affiliation: Queen Mary University of London
