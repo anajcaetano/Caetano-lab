@@ -2,8 +2,6 @@
 title: "Caetano Lab"
 ---
 
-# Caetano Lab
-
 We study how the peripheral nervous system shapes barrier function.
 
 {% include section.html
