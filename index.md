@@ -30,7 +30,7 @@ We combine experimental and computational strategies, including mouse genetics, 
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/lab-2.png"
   link="research"
   title="Our Research"
   text=text
