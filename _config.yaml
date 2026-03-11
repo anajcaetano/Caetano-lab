@@ -1,73 +1,20 @@
-# site properties and page defaults
-title: anajcaetano
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
-header: images/background.jpg
-footer: images/background.jpg
-proofer: false
+title: Caetano Lab
+subtitle: Peripheral Glia Biology
+description: We study how the peripheral nervous system shapes barrier function in oral tissues.
+logo: images/logo.png   # upload your logo here
 
-# site social media and other links
-links:
-  email: contact@anajcaetano.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: anajcaetano
-  twitter: anajcaetano
-  youtube: anajcaetano
+# Social/contact links
+email: a.caetano@qmul.ac.uk
+github: anajcaetano
+bluesky: @anajcaetano.bsky.social    # if applicable
 
-### jekyll settings
-
-# front matter defaults
-defaults:
-  # all markdown files
-  - scope:
-      path: ""
-    values:
-      layout: default
-  # markdown files in /_members
-  - scope:
-      type: "members"
-    values:
-      layout: member
-  # markdown files in /_posts
-  - scope:
-      type: "posts"
-    values:
-      layout: post
-
-collections:
-  # generate page for each member
-  members:
-    output: true
-  # generate page for each post
-  posts:
-    output: true
-
-# jekyll plugins
-plugins:
-  - jekyll-spaceship
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jekyll-feed
-  - jekyll-last-modified-at
-
-# code block syntax highlighting
-highlighter: rouge
-
-# jekyll theme
-theme: null
-
-# sass settings
-sass:
-  sass_dir: _styles
-
-# force jekyll to include certain files/folders
-include:
-  - _styles
-  - _scripts
-
-# force jekyll to exclude certain files/folders
-exclude:
-  - README.md
-  - LICENSE.md
-  - CITATION.cff
+# Nav links (keep or remove blog/projects as needed)
+nav:
+  - title: Research
+    url: /research/
+  - title: Team
+    url: /team/
+  - title: Publications
+    url: /research/
+  - title: Contact
+    url: /contact/
