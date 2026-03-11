@@ -8,12 +8,11 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@your-lab.com
+  email: a.caetano@qmul.ac.uk
   orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: your-lab
-  twitter: YourLabHandle
-  youtube: YourLabChannel
+  google-scholar: LKxV2SAAAAAJ
+  github: anajcaetano
+  bluesky: anajcaetano.bsky.social
 
 ### jekyll settings
 
