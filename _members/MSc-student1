@@ -2,6 +2,7 @@
 name: 
 image: images/photo.jpg
 role: MSc student
+order: 4
 email: 
 links:
   github: 
