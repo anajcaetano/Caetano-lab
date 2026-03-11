@@ -1,81 +1,25 @@
 ---
 ---
 
-# anajcaetano's Website
+# Caetano Lab
 
-An engaging 1-3 sentence description of your lab.
-
-{% include section.html %}
+We study how the peripheral nervous system shapes barrier function.
 
 ## Highlights
 
-{% capture text %}
+Every day, eating, drinking, breathing, and speaking all depend on the oral mucosa – a dynamic barrier where nervous and immune systems interact to detect threats and maintain resilience. Despite dense neural networks in oral tissues, we still lack a fundamental understanding of how they regulate barrier protection. Our aim is to discover how neurons and glia, the two principal cell types of the nervous system, contribute to barrier development, function, and disease.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+### Research questions
 
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+- **How does the nervous system maintain oral barrier homeostasis?**  
+  We investigate the molecular and cellular mechanisms by which neuroimmune and neuroepithelial units regulate tissue function in the adult oral mucosa.
 
-{% endcapture %}
+- **How does neural and glial diversity arise?**  
+  We explore how distinct neural and glial populations emerge during development to understand their diverse functions in adult tissues.
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
+- **How are these programmes dysregulated in disease?**  
+  We study how neuroglial states are corrupted in chronic inflammation and oral cancer, and what this means for disease progression and tissue regeneration. We are particularly interested in how tumour-associated nerves arise.
 
-{% capture text %}
+To address these questions, we combine experimental and computational approaches spanning molecular biology, single-cell and spatial multiomics, advanced microscopy, and in vivo and complex in vitro model systems.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}
