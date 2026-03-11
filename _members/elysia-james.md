@@ -1,8 +1,8 @@
 ---
 name: Elysia james
 image: images/photo.jpg
-role: phd
-group: alum
+role: PhD student
+email: elysia.m.james@qmul.ac.uk
 links:
   github: 
 ---
