@@ -1,1 +1,1 @@
-Sitemap: http://caetanolab.org/sitemap.xml
+Sitemap: https://caetanolab.org/sitemap.xml
