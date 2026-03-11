@@ -5,6 +5,6 @@
 
   # anajcaetano's Website
 
-  Visit **[caetanolab.org](http://caetanolab.org)** 🚀
+  Visit **[caetanolab.org](https://caetanolab.org)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
