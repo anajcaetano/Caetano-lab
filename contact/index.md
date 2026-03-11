@@ -3,6 +3,8 @@ title: CONTACT
 nav:
   order: 6
   tooltip: Email and location
+header: images/blizard-institute.png
+header-dark: true
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}CONTACT
