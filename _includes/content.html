@@ -33,6 +33,7 @@
       style="--image: url('{{ image | relative_url | uri_escape }}')"
     {% endif %}
   >
-    {{ section }}
+    {{ section | markdownify }}
   </section>
+{% endfor %}  </section>
 {% endfor %}
