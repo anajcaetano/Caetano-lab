@@ -1,22 +1,13 @@
 ---
 ---
 
-# Lab Website Template
+# Caetano Lab
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+## Peripheral Nervous System Biology in Barrier Tissues
 
-{%
-  include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-{%
-  include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
-%}
+How does the peripheral nervous system shape the tissues it innervates - and what happens when this goes wrong?
+
+Our lab investigates the biology of peripheral nerves and glia in barrier tissues, with a focus on the oral mucosa. We want to understand how these cells are specified during development, how they maintain tissue homeostasis in the adult, and how their programmes are subverted in chronic inflammation and cancer.
 
 {% include section.html %}
 
