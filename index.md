@@ -1,7 +1,7 @@
 ---
 ---
 
-## Peripheral Nervous System Biology in Barrier Tissues
+## Peripheral Nervous System Dynamics
 
 How does the peripheral nervous system shape the tissues it innervates - and what happens when this goes wrong?
 
