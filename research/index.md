@@ -31,10 +31,6 @@ To address these questions, we combine experimental and computational approaches
 
 {% include section.html %}
 
-## Highlighted papers
-<!-- Replace this lookup with one of your real paper titles once citations are added -->
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
-
 {%
   include button.html
   link="publications"
