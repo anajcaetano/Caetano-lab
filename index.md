@@ -15,12 +15,12 @@ Our lab investigates the biology of peripheral nerves and glia in barrier tissue
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We combine experimental and computational strategies, including mouse genetics, classical developmental biology approaches,  complex _in vitro_ systems and single-cell and spatial multiomics tools.
 
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="Learn more about our research"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -38,7 +38,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are a collaborative and interdisciplinary team based at the Blizard Institute, Queen Mary University of London.
 
 {%
   include button.html
