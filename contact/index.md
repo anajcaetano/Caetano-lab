@@ -7,7 +7,11 @@ header: images/blizard-institute.png
 header-dark: true
 ---
 
-<img src="{{ 'images/blizard-institute.png' | relative_url }}" alt="Blizard Institute" style="width:100%;">
+<img
+  src="{{ 'images/blizard-institute.png' | relative_url }}"
+  alt="The Blizard Institute, Queen Mary University of London"
+  style="display:block;width:100%;max-width:900px;height:auto;margin:0 auto;border-radius:12px;"
+>
 
 # {% include icon.html icon="fa-regular fa-envelope" %}CONTACT
 
