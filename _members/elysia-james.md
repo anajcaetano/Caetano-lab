@@ -2,7 +2,7 @@
 name: Elysia james
 image: images/photo.jpg
 role: PhD student
-email: elysia.m.james@qmul.ac.uk
+email: "elysia.m.james@qmul.ac.uk"
 links:
   github: 
 ---
