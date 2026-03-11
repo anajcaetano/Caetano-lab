@@ -1,24 +1,49 @@
-title: Caetano Lab
-subtitle: Peripheral Glia Biology
-description: We study how the peripheral nervous system shapes barrier function in oral tissues.
-logo: images/logo.png
+# site properties and page defaults
+title: Lab Website Template
+subtitle: by the Greene Lab
+description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
+header: images/background.jpg
+footer: images/background.jpg
+proofer: false
 
-nav:
-  - title: Research
-    url: /research/
-  - title: Team
-    url: /team/
-  - title: Publications
-    url: /research/
-  - title: Contact
-    url: /contact/
+# site social media and other links
+links:
+  email: contact@your-lab.com
+  orcid: 0000-0001-8713-9213
+  google-scholar: ETJoidYAAAAJ
+  github: your-lab
+  twitter: YourLabHandle
+  youtube: YourLabChannel
 
-email: a.caetano@qmul.ac.uk
-github: anajcaetano
-bluesky: "@anajcaetano.bsky.social"
+### jekyll settings
 
-remote_theme: greenelab/lab-website-template
+# front matter defaults
+defaults:
+  # all markdown files
+  - scope:
+      path: ""
+    values:
+      layout: default
+  # markdown files in /_members
+  - scope:
+      type: "members"
+    values:
+      layout: member
+  # markdown files in /_posts
+  - scope:
+      type: "posts"
+    values:
+      layout: post
 
+collections:
+  # generate page for each member
+  members:
+    output: true
+  # generate page for each post
+  posts:
+    output: true
+
+# jekyll plugins
 plugins:
   - jekyll-spaceship
   - jekyll-sitemap
@@ -26,32 +51,23 @@ plugins:
   - jekyll-feed
   - jekyll-last-modified-at
 
-permalink: /:path/
+# code block syntax highlighting
+highlighter: rouge
 
+# jekyll theme
+theme: null
+
+# sass settings
 sass:
   sass_dir: _styles
-  style: compressed
 
-kramdown:
-  parse_block_html: true
+# force jekyll to include certain files/folders
+include:
+  - _styles
+  - _scripts
 
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: default
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
-  - scope:
-      path: ""
-      type: "members"
-    values:
-      layout: member
-
-collections:
-  members:
-    output: true
+# force jekyll to exclude certain files/folders
+exclude:
+  - README.md
+  - LICENSE.md
+  - CITATION.cff
