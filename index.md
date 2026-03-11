@@ -53,7 +53,7 @@ We are a collaborative and interdisciplinary team based at the Blizard Institute
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/blizard-institute.jpg"
   link="team"
   title="Our Team"
   text=text
