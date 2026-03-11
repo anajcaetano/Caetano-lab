@@ -18,14 +18,6 @@ The Caetano Lab is based at the Blizard Institute, Queen Mary University of Lond
 
 {% include section.html %}
 
-<img
-  src="/images/blizard-institute.png"
-  alt="The Blizard Institute, Queen Mary University of London"
-  style="display:block;width:100%;max-width:900px;height:auto;margin:0 auto;border-radius:12px;"
->
-
-{% include section.html %}
-
 ## Address
 **The Blizard Institute**  
 4 Newark Street  
