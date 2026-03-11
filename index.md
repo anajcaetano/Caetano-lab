@@ -1,16 +1,21 @@
 ---
-title: "Caetano Lab"
 ---
 
-We study how the peripheral nervous system shapes barrier function.
+# Caetano Lab
 
-{% include section.html
-   title="Highlights"
-   description="Every day, eating, drinking, breathing, and speaking all depend on the oral mucosa – a dynamic barrier where nervous and immune systems interact to detect threats and maintain resilience. Despite dense neural networks in oral tissues, we still lack a fundamental understanding of how they regulate barrier protection. Our aim is to discover how neurons and glia, the two principal cell types of the nervous system, contribute to barrier development, function, and disease."
-   cards=site.data.highlights
+We study the peripheral nervous system – asking how neurons and glial cells shape oral barrier homeostasis, how their diversity arises during development, and how these mechanisms break down in disease. Our work sits at the intersection of neuroscience, developmental biology, mucosal immunity, and oral pathology, with implications for understanding conditions ranging from chronic inflammation to cancer. 
+
+Our lab is based at the **Centre for Oral Immunobiology and Regenerative Medicine, Queen Mary University of London**.
+
+{%
+  include button.html
+  link="research"
+  text="Our Research"
+  icon="fa-solid fa-flask"
 %}
-
-{% include section.html
-   title="Approach"
-   description="To address these questions, we combine experimental and computational approaches spanning molecular biology, single-cell and spatial multiomics, advanced microscopy, and in vivo and complex in vitro model systems."
+{%
+  include button.html
+  link="team"
+  text="Meet the Team"
+  icon="fa-solid fa-users"
 %}
