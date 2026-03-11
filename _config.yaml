@@ -1,10 +1,8 @@
-# Site
 title: Caetano Lab
 subtitle: Peripheral Glia Biology
 description: We study how the peripheral nervous system shapes barrier function in oral tissues.
 logo: images/logo.png
 
-# Nav links
 nav:
   - title: Research
     url: /research/
@@ -15,26 +13,20 @@ nav:
   - title: Contact
     url: /contact/
 
-# Social/contact
 email: a.caetano@qmul.ac.uk
 github: anajcaetano
 bluesky: "@anajcaetano.bsky.social"
-
-# --- DO NOT EDIT BELOW THIS LINE ---
 
 remote_theme: greenelab/lab-website-template
 
 plugins:
   - jekyll-spaceship
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-last-modified-at
 
 permalink: /:path/
-
-scholar:
-  bibliography_template: cite
 
 sass:
   sass_dir: _styles
