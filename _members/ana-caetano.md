@@ -7,7 +7,7 @@ aliases:
   - A. Caetano
   - A Caetano
 links:
-  home-page: https://janesmith.com
+  email: "a.caetano@qmul.ac.uk"
   orcid: 0000-0003-4588-3241
 ---
 
