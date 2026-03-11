@@ -7,6 +7,8 @@ header: images/blizard-institute.png
 header-dark: true
 ---
 
+<img src="{{ 'images/blizard-institute.png' | relative_url }}" alt="Blizard Institute" style="width:100%;">
+
 # {% include icon.html icon="fa-regular fa-envelope" %}CONTACT
 
 The Caetano Lab is based at the Blizard Institute, Queen Mary University of London.
