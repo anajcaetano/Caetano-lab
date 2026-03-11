@@ -5,19 +5,22 @@
   | data_filter: include.filter
 %}
 
-{% assign years = data
-  | group_by_exp: "d", "d.date | date: '%Y'"
-  | sort: "name"
-  | reverse
-%}
+{%- comment -%}
+If list items include an explicit `order` field (e.g., members),
+sort by it. Otherwise, keep the original "group by year/date" behavior
+used for publications, posts, etc.
+{%- endcomment -%}
 
-{% for year in years %}
-  {% assign data = year.items %}
-
-  {% if years.size > 1 %}
-    {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
-    {% assign data = data | sort: "date" | reverse %}
+{% assign has_order = false %}
+{% for d in data %}
+  {% if d.order != nil %}
+    {% assign has_order = true %}
+    {% break %}
   {% endif %}
+{% endfor %}
+
+{% if has_order %}
+  {% assign data = data | sort: "order" %}
 
   {% for d in data %}
     {% assign style = d.style | default: include.style %}
@@ -56,4 +59,59 @@
       width=d.width
     %}
   {% endfor %}
-{% endfor %}
+{% else %}
+
+  {% assign years = data
+    | group_by_exp: "d", "d.date | date: '%Y'"
+    | sort: "name"
+    | reverse
+  %}
+
+  {% for year in years %}
+    {% assign data = year.items %}
+
+    {% if years.size > 1 %}
+      {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
+      {% assign data = data | sort: "date" | reverse %}
+    {% endif %}
+
+    {% for d in data %}
+      {% assign style = d.style | default: include.style %}
+
+      {%
+        include {{ include.component | append: ".html" }}
+        affiliation=d.affiliation
+        author=d.author
+        authors=d.authors
+        buttons=d.buttons
+        caption=d.caption
+        content=d.content
+        date=d.date
+        description=d.description
+        excerpt=d.excerpt
+        height=d.height
+        icon=d.icon
+        id=d.id
+        image=d.image
+        last_modified_at=d.last_modified_at
+        link=d.link
+        lookup=d.lookup
+        name=d.name
+        publisher=d.publisher
+        repo=d.repo
+        role=d.role
+        slug=d.slug
+        style=style
+        subtitle=d.subtitle
+        tags=d.tags
+        text=d.text
+        title=d.title
+        tooltip=d.tooltip
+        type=d.type
+        url=d.url
+        width=d.width
+      %}
+    {% endfor %}
+  {% endfor %}
+
+{% endif %}
