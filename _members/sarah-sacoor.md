@@ -1,11 +1,10 @@
 ---
-name: Sarah Johnson
+name: Sarah Sacoor
 image: images/photo.jpg
-description: Lead Programmer
-role: programmer
+role: PhD student
 links:
-  email: sarah.johnson@gmail.com
-  twitter: sarahjohnson
+  email: s.sacoor@qmul.ac.uk
+  twitter: 
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
