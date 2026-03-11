@@ -1,27 +1,27 @@
-- title: Email
-  subtitle:
-  image:
-  link: mailto:a.caetano@qmul.ac.uk
-  description: a.caetano@qmul.ac.uk
-  tags: []
+---
+title: CONTACT
+nav:
+  order: 6
+  tooltip: Email and location
+---
 
-- title: Address
-  subtitle:
-  image:
-  link: https://www.google.com/maps/search/?api=1&query=The+Blizard+Institute+4+Newark+Street+London+E1+2AT
-  description: |
-    The Blizard Institute  
-    4 Newark Street  
-    London, UK  
-    E1 2AT
-  tags: []
+# CONTACT
 
-- title: Links
-  subtitle:
-  image:
-  link:
-  description: |
-    - GitHub: https://github.com/anajcaetano  
-    - ORCID: https://orcid.org/0000-0001-8713-9213  
-    - Google Scholar: https://scholar.google.com/citations?user=LKxV2SAAAAAJ
-  tags: []
+The Caetano Lab is based at the Blizard Institute, Queen Mary University of London.
+
+{% include section.html %}
+
+<img
+  src="{{ 'images/blizard-institute.jpg' | relative_url }}"
+  alt="The Blizard Institute, Queen Mary University of London"
+  style="display:block;width:100%;max-width:1100px;height:auto;margin:0 auto;border-radius:14px;"
+>
+
+{% include section.html %}
+
+{% include list.html component="card" data="contact" %}
+
+{% include section.html %}
+
+## Visiting / joining
+For prospective students and researchers, please see **JOIN US** and email with a brief description of your interests.
