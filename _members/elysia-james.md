@@ -1,5 +1,5 @@
 ---
-name: Elysia james
+name: Elysia James
 image: images/photo.jpg
 role: PhD student
 email: "elysia.m.james@qmul.ac.uk"
